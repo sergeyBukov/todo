@@ -20,4 +20,3 @@ class Command(BaseCommand):
             User.objects.create_user(f'user{i}', f'user{i}@test.com', 'dante123456')
 
         print('done')
-
